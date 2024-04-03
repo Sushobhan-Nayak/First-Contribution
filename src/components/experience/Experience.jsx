@@ -1,7 +1,7 @@
-import React from 'react'
-import { BsPatchCheckFill } from 'react-icons/bs';
+import React from "react";
+import { BsPatchCheckFill } from "react-icons/bs";
 
-import './experience.css';
+import "./experience.css";
 const Experience = () => {
   return (
     <section id="experience">
@@ -15,14 +15,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__ico" />
               <div>
-                <h4>HTML</h4>
+                <h4>NEXTJS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__ico" />
               <div>
-                <h4>CSS</h4>
+                <h4>TYPESCRIPT</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -36,7 +36,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__ico" />
               <div>
-                <h4>BOOTSTRAP</h4>
+                <h4>TAILWIND</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -100,6 +100,6 @@ const Experience = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Experience
+export default Experience;
